@@ -1,0 +1,152 @@
+/* GERAIS */
+*{
+      font-family: 'Oswald', sans-serif;
+}
+a,p,li{
+      list-style-type: none;
+      font-size: 16px;
+      text-decoration: none;
+}
+/* MEU MINI FRAMEWORK */
+h2.titles{
+      font-size: 28px;
+      text-transform: uppercase;
+      padding: 10px 0;
+}
+.custom-title{position: relative;}
+.custom-title div{
+      position: absolute;
+      left: 2px;
+      top: 8px;
+      background-color:#0b5ed7;
+      width: 100px;
+      height: 3px;
+}
+/*MEU ESTILOS*/
+html{
+      scroll-behavior: smooth;
+}
+body{
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/bg_parallax.jpg');/* escurecendo a imagem de fundo */
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: bottom;
+}
+header{
+      background-color: white;
+}
+header a{
+      font-weight: bold;
+}
+header a:hover{
+      color: #0b5ed7!important;
+      transition: 0.5s ease;
+}
+nav.navbar{
+      background-color: white!important;
+}
+nav.navbar li{
+      margin: 0 20px!important;
+}
+main{
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/bg_parallax.jpg');/* escurecendo a imagem de fundo */
+      background-size: cover;
+      min-height: 600px;
+      background-attachment: fixed;
+      background-position: bottom;
+      display: flex;
+      align-items: center;
+      color: white;
+      margin-top: 50px;
+}
+#emailHelp{/* texto abaixo do form */
+      color: white!important;
+      font-style: italic!important;
+}
+.btn{ /* botao do form */
+      width: 100px!important;
+}
+section.arrow{
+      background-color: #0b5ed7;
+}
+section.arrow h2{
+      position: relative;
+      top: 5px;
+      color: white;
+      font-size: 35px;
+      padding: 10px;
+}
+section.sobre{
+      padding: 50px 10px;
+      background-color: rgb(236, 236, 236);
+}
+section.sobre .col-md-12 .text-center > .btn{
+      width: 140px!important;
+}
+section.sobre .col-md-12 .custom-title div{
+      width: 95px;
+}
+section.diferenciais{
+      padding: 50px 10px;
+      color: white;
+}
+section.diferenciais .col-md-4{
+      text-align: center;
+      padding: 10px 30px;
+}
+section.diferenciais .col-md-4 h2{
+      font-size: 35px;
+}
+section.diferenciais .container .custom-title div{
+      width: 320px;
+}
+section.lista {
+      padding: 50px 10px 30px 10px;
+      background-color: #0b5ed7;
+      color: white;
+}
+section.suporte{
+      padding: 50px 10px;
+      background-color: white;
+}
+section.suporte .form-group{
+      margin: 20px 0;
+}
+section.historia{
+      padding: 50px 10px;
+      color: white;
+}
+section.historia a{
+      color: white;
+}
+section.historia h3 a > i{
+      font-size: 28px;
+}
+section.historia a:hover{
+      color: #0b5ed7;
+      text-decoration: underline;
+}
+section.historia .custom-title div{
+      top: 3px;
+}
+footer{
+      background-color: #0b5ed7;
+      color: white;
+}
+footer a{
+      color: white;
+      text-decoration: underline;
+}
+footer a:hover{
+      color: black;
+}
+@media screen and (max-width:640px) {
+      section.lista .form-group > input[type=email]{
+            margin: 20px 0;
+      }
+}
+@media screen and (max-width: 380px) {
+      section.diferenciais .container .custom-title div{
+            width: 115px;
+      }
+}
