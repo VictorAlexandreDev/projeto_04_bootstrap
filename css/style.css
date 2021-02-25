@@ -42,6 +42,12 @@ header a:hover{
       color: #0b5ed7!important;
       transition: 0.5s ease;
 }
+header a.navbar-brand > h2{
+      margin-left: 15vw;
+}
+header .collapse ul{
+      margin-right: 14vw;
+}
 nav.navbar{
       background-color: white!important;
 }
@@ -139,6 +145,14 @@ footer a{
 }
 footer a:hover{
       color: black;
+}
+@media screen and (max-width: 768px){
+      header a.navbar-brand > h2{
+            margin-left: 0vw;
+      }
+      header .collapse ul{
+            margin-right: 0vw;
+      }
 }
 @media screen and (max-width:640px) {
       section.lista .form-group > input[type=email]{
